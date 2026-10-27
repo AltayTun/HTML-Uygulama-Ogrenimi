@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Örneği</title>
+</head>
+<body>
+    <table bgcolor="yellow" cellpadding="10">
+        <tr>
+            <td>
+                <h3>Lütfen formu doldurunuz:</h3>
+
+                <form>
+                    <table>
+                        <tr>
+                            <td>Adınız:</td>
+                            <td><input type="text" value="Doldurunuz..."></td>
+                        </tr>
+                        <tr>
+                            <td>E-posta Adresiniz:</td>
+                            <td><input type="text" value="@sakarya.edu.tr"></td>
+                        </tr>
+                        <tr>
+                            <td>Şifreniz:</td>
+                            <td><input type="password" value="12345"></td>
+                        </tr>
+                        <tr>
+                            <td>Kullanım Şekli:</td>
+                            <td>
+                                <input type="radio" name="kullanim" checked> Ticari
+                                <input type="radio" name="kullanim"> Kişisel
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mesleğiniz:</td>
+                            <td>
+                                <select>
+                                    <option selected>Öğrenci</option>
+                                    <option>Mühendis</option>
+                                    <option>Öğretmen</option>
+                                    <option>Diğer</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Kullandığınız İşletim Sistemleri:</td>
+                            <td>
+                                <select multiple size="5">
+                                    <option selected>Linux</option>
+                                    <option selected>Unix</option>
+                                    <option>Windows</option>
+                                    <option>MacOs</option>
+                                    <option>OS/2</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Düşünceleriniz:</td>
+                            <td>
+                                <textarea rows="4" cols="25">Lütfen yazınız...</textarea>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <br>
+                    <input type="checkbox" checked> Yeni bir sürüm çıktığında e-mail adresime bilgi gönderiniz.
+                    
+                    <br><br>
+                    
+                    <center>
+                        <input type="submit" value="Gönder">
+                        <input type="reset" value="Temizle">
+                    </center>
+                </form>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
